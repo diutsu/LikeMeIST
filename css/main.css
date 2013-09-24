@@ -17,6 +17,10 @@ body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
+    font-size: 115%;
+  text-align: justify;
+/*  width: 42em;*/
+  line-height: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,75 +60,83 @@ ul.posts span {
 /*****************************************************************************/
 
 .contents {
-
+    overflow: scroll;
     box-shadow: 0px 0px 30px 1px #333;
-
-  margin: 1.5em 0 ;
+    margin: 1.5em 0 ;
     background: #FFF;
 }
+
+
 .site {
-  margin: 0em auto ;
-    font-size: 115%;
-  text-align: justify;
-/*  width: 42em;*/
-  line-height: 1.5em;
-  padding: 2em 3.5em;
+  margin: 2em 0;
+  padding: 2em 4em;
 }
 
-.site .header a {
+.header {
+    margin: 2em auto 0;
+}
+
+.header a {
   font-weight: bold;
   text-decoration: none;
 }
 
-.site .header h1.title {
+.header h1.title {
   display: inline-block;
   margin-bottom: 2em;
 }
 
-.site .header h1.title a {
+.header h1.title a {
   color: #a00;
 }
 
-.site .header h1.title a:hover {
+.header h1.title a:hover {
   color: #000;
 }
 
-.site .header a.extra {
+.header a.extra {
   color: #aaa;
   margin-left: 1em;
 }
 
-.site .header a.extra:hover {
+.header a.extra:hover {
   color: #000;
 }
 
-.site .meta {
+.meta {
   color: #aaa;
 }
 
-.site .footer {
-  font-size: 80%;
+.footer {
   color: #666;
-  margin-top: 2em;
   overflow: hidden;
 }
 
-.site .footer .contact {
+.footer .contact-box {
+  font-size: 80%;
+    box-shadow: 0px 0px 10px 1px #666;
+    background: #ddd;
+    margin: 10px 2em 10px 10px;
+    padding: 0.5em 2em;
   float: left;
-  margin-right: 3em;
+
+}
+.footer .contact {
+  float: left;
+  margin-right: 1em;
 }
 
-.site .footer .contact a {
+.footer .contact a {
   color: #8085C1;
 }
 
-.site .footer .rss {
+.footer .rss {
   margin-top: 1.1em;
   margin-right: -.2em;
   float: right;
 }
 
-.site .footer .rss img {
+.footer .rss img {
   border: 0;
 }
 
@@ -165,3 +177,34 @@ ul.posts span {
 .post pre.terminal code {
   background-color: #333;
 }
+
+
+/******************************
+ *
+ * Hacks
+ *
+ * ***************************/
+
+.outer-center {
+    float: right;
+    right: 50%;
+    position: relative;
+}
+.inner-center {
+    float: right;
+        right: -50%;
+    position: relative;
+    }
+.outer-center-left {
+    float: right;
+    right: 75%;
+    position: relative;
+}
+.inner-center-left {
+    float: right;
+        right: -75%;
+    position: relative;
+    }
+.clear {
+    clear: both;
+    }

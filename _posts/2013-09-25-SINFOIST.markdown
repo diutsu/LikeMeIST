@@ -1,0 +1,13 @@
+---
+layout:  post
+title: "Semana Informática do IST (SINFO)"
+date: 2013-09-25 00:22:36
+name: "Semana Informática do IST (SINFO)"
+faceurl: "http://facebook.com/SINFOIST"
+about: "De Dom. 24 Fev. a 6ª-f 1 de Março 2013
+www.sinfo.org"
+description: "Este evento, inteiramente organizado por uma comissão de alunos de informática, inclui um ciclo de conferências e painéis de discussão com temas variados dentro da área de Informática, onde marcam presença oradores e empresas, nacionais e internacionais. Serão também realizados workshops e uma mini-feira tecnológica onde várias empresas de Informática poderão entrar em contacto directo com os alunos.
+É objectivo desta página a partilha de notícias na área, assim como divulgar de forma progressiva informação sobre a estrutura e conteúdo do programa desta semana."
+faceurl: "http://facebook.com/SINFOIST"
+imgurl: "http://profile.ak.fbcdn.net/hprofile-ak-prn2/276742_134758406571284_1653485012_q.jpg"
+---

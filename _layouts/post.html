@@ -1,9 +1,21 @@
 ---
 layout: default
 ---
+<div id="home">
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
-{{ content }}
+        <a href={{page.faceurl}} class="facelink">
+    <div class=post-pic>
+        <img url={{page.imgurl}}/>
+    </div>
+    <div class=post-info>
+        <div class=post-title> {{page.name}} </div></br>
+        <div class=post-title> {{page.about}} </div></br>
+        <div class=post-description> {{page.description}} </div>
+    </div>    
+    <div class="fb-like" data-href={{page.faceurl}} data-width="450" data-layout="box_count" data-show-faces="false" data-send="false"></div>
+    <div class=post-permalink><a href={{ page.url }}> Posted on {{ page.date | date: "%d %m %Y" }}</a> </div>
+</div>
 </div>

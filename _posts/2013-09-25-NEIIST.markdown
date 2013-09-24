@@ -1,0 +1,11 @@
+---
+layout:  post
+title: "NEIIST - Núcleo Estudantil de Informática do IST"
+date: 2013-09-25 00:22:29
+name: "NEIIST - Núcleo Estudantil de Informática do IST"
+faceurl: "http://facebook.com/NEIIST"
+about: "O NEIIST ambiciona integrar, apoiar e dinamizar todos os grupos, comunidades e iniciativas com impacto no percurso dos estudantes do IST com interesses em Tecnologias de Informação."
+description: " "
+faceurl: "http://facebook.com/NEIIST"
+imgurl: "http://profile.ak.fbcdn.net/hprofile-ak-ash1/211205_104344476266646_895113254_q.jpg"
+---

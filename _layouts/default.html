@@ -14,31 +14,70 @@
 
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=180867105431152";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
         <div class="contents">
-        <div class="site">
+
           <div class="header">
+            <div class="outer-center-left">
+                <div class="inner-center-left">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
             <a class="extra" href="/">home</a>
           </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
           </div>
+            <div class="clear"></div>
+          </div>
+            <div class="outer-center">
+                <div class="inner-center">
+                    <div class="site">
+                  {{ content }}
+                     </div>
+                </div>
+            </div>
+            <div class="clear"></div>
         </div>
-    </div>
+        <div class="footer">
+            <div class="outer-center">
+                <div class="inner-center">
+                   <div class="contact-box">
+                    <div class="contact">
+                      <p>
+                        Powered By : <br />
+                        Requests & Contact : <br />
+                        Other projects : <br />
+                      </p>
+                    </div>
+                    <div class="contact">
+                        <p>
+                        <a href="http://hackerschol.ist.utl.pt">HackerSchool IST</a><br/>
+                        <a href="mailto:LikeMeIST@hackerschool.ist.utl.pt"> LikeMeIST@hackerschool.ist.pt </a><br />
+                        <a href="https://github.com/hackerscholist">github.com/hackerscholist</a>
+                        </p>
+                    </div>
+                 </div>
+               <div class="contact-box">
+                <div class="contact">
+                  <p>
+                    Made By : <br />
+                    That has code here : <br />
+                    And rambles here: 
+                  </p>
+                </div>
+                <div class="contact">
+                    <p>Gonçalo Sousa<br />
+                    <a href="https://github.com/diutsu">github.com/diutsu</a><br />
+                    <a href="https://twitter.com/diutsu">twitter.com/diutsu</a><br />
+                  </p>
+                </div>
+              </div>
+      </div>
+      </div>
+      </div>
     </body>
 </html>
